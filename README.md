@@ -44,8 +44,4 @@ El proyecto incluye una interfaz de usuario basada en consola para interactuar c
 - `5. Mostrar Inventario`: Muestra todos los productos en el inventario.
 - `6. Salir`: Finaliza el programa.
 
-## Instalación
 
-1. **Clonar el repositorio:**
-```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
