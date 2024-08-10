@@ -36,3 +36,16 @@ El proyecto incluye una interfaz de usuario basada en consola para interactuar c
 ## Uso
 
 1. **Ejecutar el programa:**
+2. **Opciones del menú:**
+- `1. Agregar Producto`: Permite agregar un nuevo producto al inventario.
+- `2. Actualizar Producto`: Permite actualizar la información de un producto existente.
+- `3. Eliminar Producto`: Permite eliminar un producto del inventario.
+- `4. Consultar Producto`: Permite consultar los detalles de un producto.
+- `5. Mostrar Inventario`: Muestra todos los productos en el inventario.
+- `6. Salir`: Finaliza el programa.
+
+## Instalación
+
+1. **Clonar el repositorio:**
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
