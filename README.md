@@ -22,13 +22,13 @@ Las clases abstractas se usan para definir una clase base con atributos y métod
 El uso de genéricos permite crear clases y métodos que funcionan con cualquier tipo de datos, mientras se mantiene la seguridad de tipo en tiempo de compilación. En este proyecto:
 - La clase `Inventory<T extends Product>` utiliza un parámetro de tipo genérico `T` que está restringido a clases que extienden `Product`. Esto permite que `Inventory` maneje diferentes tipos de productos de manera flexible y segura.
 
-### 3. **Métodos `equals()` y `hashCode()`**
-Estos métodos se utilizan para comparar objetos y para el uso en colecciones basadas en hash. En este proyecto:
-- Cada clase que extiende `Product` (`Electronic`, `Book`, `Clothes`) implementa su propio `equals()` y `hashCode()` para asegurar comparaciones precisas y un comportamiento correcto en colecciones como `List`.
-
-### 4. **Manejo de Excepciones Personalizadas**
+### 3. **Manejo de Excepciones Personalizadas**
 El proyecto utiliza excepciones personalizadas para manejar errores específicos. En este caso:
 - `ProductNotFoundException` es una excepción personalizada que se lanza cuando se intenta buscar un producto que no existe en el inventario.
+
+### 4. **Métodos `equals()` y `hashCode()`**
+Estos métodos se utilizan para comparar objetos y para el uso en colecciones basadas en hash. En este proyecto:
+- Cada clase que extiende `Product` (`Electronic`, `Book`, `Clothes`) implementa su propio `equals()` y `hashCode()` para asegurar comparaciones precisas y un comportamiento correcto en colecciones como `List`.
 
 ### 5. **Interfaz de Usuario en Consola**
 El proyecto incluye una interfaz de usuario basada en consola para interactuar con el sistema. Se utiliza un menú con opciones para agregar, actualizar, eliminar, y consultar productos, lo que proporciona una forma simple de gestionar el inventario.
